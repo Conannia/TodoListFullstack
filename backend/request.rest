@@ -1,0 +1,25 @@
+get http://localhost:8080/api/todo
+
+###
+
+post http://localhost:8080/api/todo
+Content-Type: application/json
+
+{
+    "name":"test tambah todo",
+    "status": "false"
+}
+
+###
+put http://localhost:8080/api/todo/1
+Content-Type: application/json
+
+{
+    "name": "test edit to do",
+    "status": true
+}
+
+###
+delete http://localhost:8080/api/todo/1
+Content-Type: application/json
+
