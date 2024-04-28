@@ -7,11 +7,11 @@ Content-Type: application/json
 
 {
     "name":"test tambah todo",
-    "status": "false"
+    "status": ""
 }
 
 ###
-put http://localhost:8080/api/todo/1
+put http://localhost:8080/api/todo/5
 Content-Type: application/json
 
 {
@@ -20,6 +20,6 @@ Content-Type: application/json
 }
 
 ###
-delete http://localhost:8080/api/todo/1
+delete http://localhost:8080/api/todo/7
 Content-Type: application/json
 

@@ -6,7 +6,7 @@ const app = express()
 
 app.use(express())
 app.use(bodyParser.json());
-app.use(cors())
+app.use(cors({origin:"http://localhost:3000", credentials: true}))
 
 const Todo = require("./api/todo.controller")
 app.use('/api/todo', Todo)

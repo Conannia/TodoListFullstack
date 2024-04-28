@@ -71,7 +71,7 @@ app.delete('/:id', async(req, res) => {
     })
     .then(result => {
         res.json({
-            message: "data berhasil dihapus"
+            message: "Data is Deleted!"
         })
     })
     .catch(err=>{
