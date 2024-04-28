@@ -11,15 +11,15 @@ Content-Type: application/json
 }
 
 ###
-put http://localhost:8080/api/todo/5
+put http://localhost:8080/api/todo/6
 Content-Type: application/json
 
 {
-    "name": "test edit to do",
+    "name": "test edit to do edididididi",
     "status": true
 }
 
 ###
-delete http://localhost:8080/api/todo/7
+delete http://localhost:8080/api/todo/15
 Content-Type: application/json
 

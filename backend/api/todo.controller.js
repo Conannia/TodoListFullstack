@@ -42,10 +42,14 @@ app.post("/", async(req, res)=> {
 app.put("/:id", async(req, res) => {
     const {id} = req.params
     const {name, status} = req.body
+
+    // Membuat objek data baru dengan name dan status yang diterima
     const data = {
         name: name,
         status: status
     }
+
+    // Memperbarui entri dengan menggunakan data baru
     await todo.update(data, {
         where:{
             id: id
@@ -59,8 +63,8 @@ app.put("/:id", async(req, res) => {
     .catch(err => {
         console.log(err)
     })
-
 })
+
 
 app.delete('/:id', async(req, res) => {
     const {id} = req.params
