@@ -1,0 +1,82 @@
+
+.container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    background-color: bisque;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: peachpuff;
+    padding: 2rem;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input{
+    border: none;
+    outline: none;
+}
+
+.input{
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.5rem;
+    width: 55%;
+}
+
+.button{
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.5rem;
+    width: 30%;
+    text-align: center;
+    /* margin-left: 1rem; */
+    background-color: rgb(224 148 37 / 80%);
+}
+
+.list {
+    background-color:  rgb(224 148 37 / 30%);
+    border-radius: 1rem;
+    width: 93%;
+    margin: 1rem 0;
+    padding: 0rem 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checked {
+    text-decoration: line-through;
+    width: 80%;
+}
+
+.unchecked {
+    text-decoration: none;
+    width: 80%;
+}
+.action{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.dangerous {
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.5rem;
+    width: 63%;
+    text-align: center;
+    margin-left: 1rem;
+    background-color: rgba(230, 62, 62, 0.8);
+}
