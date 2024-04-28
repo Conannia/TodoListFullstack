@@ -5,4 +5,4 @@ di sini saya menggungganakan Express JS sebagai Backendnya
 
 kemudian saya menggunakan React js untuk frontendnya
 
-untuk database saya menggunakan mysql 
+untuk database saya menggunakan mysql  nn
