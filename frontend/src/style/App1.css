@@ -59,11 +59,18 @@
 .checked {
     text-decoration: line-through;
     width: 80%;
+    margin-left: 1rem;
 }
 
 .unchecked {
     text-decoration: none;
     width: 80%;
+    margin-left: 1rem;
+}
+
+.data {
+    width: 80%;
+    display: flex;
 }
 .action{
     margin: auto;
@@ -79,4 +86,20 @@
     text-align: center;
     margin-left: 1rem;
     background-color: rgba(230, 62, 62, 0.8);
+}
+
+.button_child {
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.5rem;
+    width: 63%;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.filter {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
