@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "root",
+    "username": "niaf",
     "password": "new_password",
     "database": "todolist",
     "host": "127.0.0.1",
